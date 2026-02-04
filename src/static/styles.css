@@ -157,8 +157,8 @@ footer {
 }
 
 .participants-list {
-  list-style: disc;
-  margin-left: 18px;
+  list-style: none;
+  margin-left: 0;
   padding-left: 0;
   display: block;
 }
@@ -171,6 +171,26 @@ footer {
   border-radius: 4px;
   color: #0b3b66;
   font-size: 14px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: rgba(198, 40, 40, 0.08);
 }
 
 .participant-item.empty {
